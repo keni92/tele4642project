@@ -34,9 +34,9 @@ class CustomTopo(Topo):
         #Ring topology
         for k in irange(1, fanswitch):
            if k == fanswitch:
-              addLink('c1', 'c%s' % n, **linkopts1)
+              self.addLink('c1', 'c%s' % n, **linkopts1)
            else:
-              addLink('c%s' % n, 'c%s' % n+1, **linkopts1)
+              self.addLink('c%s' % n, 'c%s' % n+1, **linkopts1)
            n += 1
 
         '''
