@@ -10,7 +10,7 @@ from ryu.lib import hub
 class SimpleBWMonitor(simple_switch_13.SimpleSwitch13):
 
     def __init__(self, *args, **kwargs):
-        super(SimpleMonitor, self).__init__(*args, **kwargs)
+        super(SimpleBWMonitor, self).__init__(*args, **kwargs)
         self.datapaths = {}
         self.monitor_thread = hub.spawn(self._monitor)
         self.bwstats = {}
