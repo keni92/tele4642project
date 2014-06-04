@@ -1,0 +1,12 @@
+Planned actions:
+
+if in flow, send along flow
+DONE
+otherwise:
+
+
+if in_packet not in LAN, send to default gateway ->
+    if udp traffic, send to 1st host/server
+    if tcp traffic ->
+        send to xth server
+        change x
