@@ -1,11 +1,3 @@
 This is the TELE4642 Project git page.
 
-Things to do:
-
-Make a topo file,
-
-Create controller logic that decides which link to send packets onto,
-
-Create controller logic that determines the current bandwidth used by each link,
-
-As above, but for physical interfaces.
+Please refer to wiki
